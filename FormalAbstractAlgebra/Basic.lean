@@ -13,7 +13,6 @@ theorem s_add (a b : Nat) : Nat.succ a + b = Nat.succ (a + b) := by
     induction b with
     | zero =>
         rw[Nat.add_zero]
-        rw[Nat.add_zero]
     | succ d hd =>
         rw[Nat.add_succ]
         rw[Nat.add_succ]
@@ -49,3 +48,4 @@ theorem assoc (a b c : Nat) : (a + b) + c = a + (b + c) := by
             rw[Nat.add_succ]
             rw[Nat.add_succ]
             rw[hd]
+
