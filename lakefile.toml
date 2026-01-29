@@ -1,0 +1,10 @@
+name = "Formal-Abstract-Algebra-"
+version = "0.1.0"
+defaultTargets = ["formal-abstract-algebra-"]
+
+[[lean_lib]]
+name = "FormalAbstractAlgebra"
+
+[[lean_exe]]
+name = "formal-abstract-algebra-"
+root = "Main"
