@@ -8,7 +8,7 @@ theorem zeroadd (n : Nat) : 0 + n = n := by
         rw[hd]
         rfl
 
--addition and successor--
+--addition and successor--
 
 theorem s_add (a b : Nat) : Nat.succ a + b = Nat.succ (a + b) := by
     induction b with
@@ -22,7 +22,7 @@ theorem s_add (a b : Nat) : Nat.succ a + b = Nat.succ (a + b) := by
         rw[hd]
         rfl
 
--commutativity--
+--commutativity--
 
 theorem comm (a b : Nat) : a + b = b + a := by
     induction a with
