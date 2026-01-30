@@ -1,0 +1,2 @@
+namespace FormalAbstractAlgebra
+end FormalAbstractAlgebra
